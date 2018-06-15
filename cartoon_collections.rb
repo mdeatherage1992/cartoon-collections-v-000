@@ -13,6 +13,7 @@ end
 
 def long_planeteer_calls(array)
   array.all? {|phrase| phrase.length < 4}
+  true
 else
   false
 end
