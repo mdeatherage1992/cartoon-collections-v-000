@@ -17,8 +17,9 @@ def long_planeteer_calls(array)
     if phrase.length > 4
       list.push(true)
     else
-      false
+      list.push(false)
     end
+    !!(list)
   end
 end
 
